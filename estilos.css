@@ -1,0 +1,235 @@
+body {
+  font-size: 16px;
+}
+
+header {
+  background-image: url('vallejerte.jpg');
+  background-size: cover;
+  height: 500px;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px auto;
+  max-width: 1200px;
+}
+
+.card {
+  width: 30%;
+}
+
+footer {
+  background-color: #333;
+  color: #022c25;
+  padding: 50px 0;
+  text-align: center;
+}
+
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+
+  header {
+    height: 300px;
+  }
+
+  .main {
+    flex-direction: column;
+    margin: 20px auto;
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  footer {
+    padding: 20px 0;
+  }
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #059a61;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #0a1867;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  img {
+    max-width: 100%;
+    border: 2px solid #0ca890;
+  }
+  .imagen-destacada {
+    width: 500px;
+    border: 2px solid #333;
+    margin: 20px auto;
+  }
+  /* Estilos para las imágenes */
+.imagen {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+/* Estilos para la imagen ampliada */
+#imagenAmpliada {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 999;
+  overflow: auto;
+}
+
+#imagenAmpliada img {
+  display: block;
+  margin: auto;
+  width: 80%;
+  max-width: 1200px;
+  height: auto;
+}
+  section h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  section p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  section a {
+    display: inline-block;
+    background-color: #333;
+    color: #0b806e;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  footer {
+    background-color: #016b5b;
+    text-align: center;
+    padding: 20px;
+  }
+
+/*** Responsive */
+/*Tablet*/
+
+@media screen and (max-width:768px) {
+
+  h1{
+      font-size: 3rem;
+  }
+
+  section>div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  }
+
+  h2 {
+      padding-bottom: 5%;
+  }
+
+  .card, .formulario{
+      width: 97.5vw;
+  }
+
+  .formulario {
+      padding: 0;
+  }
+
+  .contacto{
+      text-align:center;
+  }
+
+  footer {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+  }
+
+  footer>div {
+      width: 100%;
+  }
+
+}
+
+/*Mobile*/
+
+@media screen and (max-width:460px){
+
+  .bg-header {
+      height: 100vh;
+  }
+
+  h1 {
+      font-size: 2.5rem;
+  }
+
+  section {
+      padding: 40px 0 0 0;
+  }
+
+  h2 {
+      font-size: 0.85 rem;
+      text-align: center;
+      width: 97.5vw;
+  }
+
+  .contacto {
+      width: unset;
+  }
+
+
+
+}
