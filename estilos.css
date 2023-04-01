@@ -29,7 +29,7 @@ footer {
 /* Estilos para pantallas pequeñas */
 @media screen and (max-width: 767px) {
   body {
-    font-size: 14px;
+    font-size: 22px;
   }
 
   header {
@@ -134,13 +134,13 @@ body {
   height: auto;
 }
   section h3 {
-    font-size: 24px;
+    font-size: 26px;
     font-weight: bold;
     margin-bottom: 20px;
   }
   
   section p {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.5;
     margin-bottom: 20px;
   }
@@ -195,7 +195,7 @@ body {
   footer {
       display: flex;
       flex-direction: column;
-      gap: 30px;
+      gap: 40px;
   }
 
   footer>div {
@@ -221,7 +221,7 @@ body {
   }
 
   h2 {
-      font-size: 0.85 rem;
+      font-size: 1.2 rem;
       text-align: center;
       width: 97.5vw;
   }
